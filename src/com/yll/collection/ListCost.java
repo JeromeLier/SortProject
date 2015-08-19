@@ -1,9 +1,12 @@
 package com.yll.collection;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+
+import org.omg.CORBA.PRIVATE_MEMBER;
 
 /** 
  * @Description: 
@@ -12,6 +15,7 @@ import java.util.List;
  *  
  */
 public class ListCost {
+	public static  Double number; 
 
 	public static void main(String[] args) {
 		
@@ -48,6 +52,19 @@ public class ListCost {
         System.out.println(linkedList.getLast());
         System.out.println(linkedList.pollFirst());
         System.out.println(linkedList.peekFirst());
+        
+        
+        String str = "dasfdsa";
+        byte[] byt = str.getBytes();
+      /*  for(int i = 0; i < str.length(); i++ ) {
+        	System.out.println(str.charAt(i));
+        }
+        */
+        for(byte b : byt) {
+        	System.out.println(b);
+        }
+        
+        System.out.println("dfafsdafa " + number);
 	}
 	
 

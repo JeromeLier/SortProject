@@ -55,14 +55,17 @@ public class InsertSortPart {
 	}
 	
 	public static void main(String[] args) {
-		InsertSortPart sort = new InsertSortPart();
+		/*InsertSortPart sort = new InsertSortPart();
 		long timeStart = System.currentTimeMillis();
 		int[] arr = {49,38,65,97,76,13,27,49};
 		sort.insertSort(arr, 8);
 		sort.printArray(arr);
 		long timeEnd = System.currentTimeMillis();
 		System.out.println();
-		System.out.print(timeEnd - timeStart +"ms");
+		System.out.print(timeEnd - timeStart +"ms");*/
+		String a = "ad|cd|de";
+		a = a.replaceAll("\\|", ",");
+		System.out.println(a);
 	}
 	
 
